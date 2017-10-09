@@ -31,7 +31,7 @@
     height: 100px;
 }
 body {
-    max-width: 1480px;
+    max-width: 1200px;
     margin: 0 auto;
     -webkit-box-shadow: 2px 4px 27px 3px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 2px 4px 27px 3px rgba(0, 0, 0, 0.75);
@@ -89,8 +89,8 @@ body {
 #hero {
     background: url("images/image1.jpg") no-repeat;
     background-position: top center;
-    background-size: cover;
-    min-height: 1250px;
+    background-size: contain;
+    min-height: 900px;
 }
 .sp-title img {
     display: none;
@@ -124,23 +124,23 @@ body {
     background: url("images/image2_bg.jpg") no-repeat;
     display: block;
     background-size: cover;
-    height:1700px;
+    height:1800px;
 }
 .second-col .container {
     background-color: white;
     border-radius: 5px;
     top: 10em;
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
 }
 .download-info {
     width: 100%;
-    padding: 3em 2em 1em 5em;
+    padding: 3em 2em 1em 3em;
     background: url("images/image3.png") bottom right no-repeat;
 }
 .download-info-3 {
     width: 100%;
-    padding: 6em 2em 1em 5em;
+    padding: 3em 2em 1em 5em;
     background: url("images/image3_3.png") bottom right no-repeat;
 }
 .download-info-2 p .right {
@@ -150,7 +150,7 @@ body {
 }
 .download-info-2 img {
     float: left;
-    padding: 0em 8em 2em 2em;
+    padding: 0em 3em 2em 2em;
 }
 .download-info p .emphasis,
 .download-info-2 p .emphasis,
@@ -198,8 +198,14 @@ body {
 
 @media only screen and (max-width: 1024px) {
     .second-col {
-        height: 1300px
+        height: 1500px;
+        background-size: cover;
     }
+    .second-col .container{
+        height:1400px;
+
+    }
+
     .download-info,
     .download-info-2,
     .download-info-3 {
@@ -286,7 +292,7 @@ body {
     background: url("images/image3_bg.jpg") no-repeat;
     display: block;
     background-size: cover;
-    height: 1600px;
+    height: 1300px;
 }
 .three-col .container {
     background: url("images/image3_bg_cnt_2.png") no-repeat;
@@ -315,7 +321,7 @@ body {
     background: url("images/image4_bg.jpg") no-repeat;
     display: block;
     background-size: contain;
-    height: 1210px;
+    height: 980px;
     background-position: top center;
 }
 /*ipad-*/
@@ -346,7 +352,7 @@ body {
     background: url("images/image5_bg.png") no-repeat;
     display: block;
     background-size: contain;
-    height: 4000px;
+    height: 3300px;
     margin: 0 auto;
 }
 .three-col-sp,

@@ -1,0 +1,473 @@
+/*common*/
+
+.sp {
+    display: none;
+}
+.img-pc {
+    display: block;
+}
+.disable {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 19px !important;
+    line-height: 170%;
+    color: #85313b;
+}
+.red {
+    color: #f14504;
+}
+.boxshadow {
+    box-shadow: 5px 5px 5px #888888;
+}
+.line {
+    border: dotted 1px #511f0a;
+    padding: 20px 0;
+}
+.line_btm {
+    border-bottom: dotted 1px #511f0a;
+}
+.pc-mg-100 {
+    width: 100px;
+    height: 100px;
+}
+body {
+    max-width: 1480px;
+    margin: 0 auto;
+    -webkit-box-shadow: 2px 4px 27px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 4px 27px 3px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 4px 27px 3px rgba(0, 0, 0, 0.75);
+}
+@media only screen and (max-width: 767px) {
+    .img-pc {
+        display: none;
+    }
+    .sp {
+        display: block;
+    }
+    .disable {
+        font-size: 16px !important;
+    }
+    h1 {
+        color: #85313b;
+        padding: 2em 0;
+        font-weight: 600;
+        text-align: center;
+        font-size: 24px;
+        letter-spacing: 3px;
+    }
+    .sp-big {
+        font-weight: 600;
+        font-size: 24px
+    }
+    .chalkboard .chalkboard_img {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 2em;
+    }
+    .pc-mg-100 {
+        display: none;
+    }
+}
+/* ipad pro 1024*/
+
+@media only screen and (max-width: 1024px) {
+    .title img {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 3em;
+    }
+    .left_btn,
+    .right_btn {
+        display: none;
+    }
+}
+/* 1st col*/
+
+#hero {
+    background: url("images/image1.jpg") no-repeat;
+    background-position: top center;
+    background-size: cover;
+    min-height: 1250px;
+}
+.sp-title img {
+    display: none;
+}
+/* ipad pro 1024*/
+
+@media only screen and (max-width: 1024px) {
+    #hero {
+        min-height: 575px;
+        background-size: contain;
+    }
+}
+/* mobile4*/
+
+@media only screen and (max-width: 767px) {
+    #hero {
+        background: url("images/image1_sp.jpg") no-repeat;
+        background-position: top center;
+        background-size: cover;
+        min-height: 650px;
+    }
+    .sp-title img {
+        display: block;
+        width: 93%;
+        margin: 0 auto;
+    }
+}
+/* 経営者の悩み */
+
+.second-col {
+    background: url("images/image2_bg.jpg") no-repeat;
+    display: block;
+    background-size: cover;
+    height: 2000px;
+}
+.second-col .container {
+    background-color: white;
+    border-radius: 5px;
+    top: 10em;
+    width: 85%;
+    margin: 0 auto;
+}
+.download-info {
+    width: 100%;
+    padding: 8em 2em 1em 5em;
+    background: url("images/image3.png") bottom right no-repeat;
+}
+.download-info-3 {
+    width: 100%;
+    padding: 8em 2em 1em 5em;
+    background: url("images/image3_3.png") bottom right no-repeat;
+}
+.download-info-2 p .right {
+    width: 60%;
+    padding: 8em 1em 1em 5em;
+    float: right !important;
+}
+.download-info-2 img {
+    float: left;
+    padding: 2em 5em 2em 2em;
+}
+.download-info p .emphasis,
+.download-info-2 p .emphasis,
+.download-info-3 p .emphasis {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    letter-spacing: 2px;
+    line-height: inherit;
+    color: #7e232e;
+    font-size: 28px !important;
+    font-weight: bold;
+}
+.download-info p,
+.download-info-2 p,
+.download-info-3 p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 200% !important;
+    padding-top: 2em;
+    color: #7e232e;
+    font-size: 21px !important;
+    font-weight: bold;
+    font: inherit;
+    vertical-align: baseline;
+}
+.left_btn {
+    background: url("images/btn.png") no-repeat;
+    float: left;
+    height: 80px;
+    width: 20%;
+    margin: 1em;
+}
+.right_btn {
+    background: url(images/btn.png) no-repeat;
+    float: right;
+    height: 80px;
+    width: 20%;
+    margin: 1em;
+    position: absolute;
+    right: 0;
+}
+/* ipad pro 1024*/
+
+@media only screen and (max-width: 1024px) {
+    .second-col {
+        height: 1600px
+    }
+    .download-info,
+    .download-info-3 {
+        background: none;
+        padding: 0;
+    }
+    .download-info-2 img {
+        display: none !important;
+    }
+}
+/* mobile*/
+
+@media only screen and (max-width: 767px) {
+    .second-col {
+        background: url("images/image2_bg_sp.jpg") repeat;
+        background-size: contain;
+        max-width: 100%;
+        height: 1050px;
+    }
+    .second-col .container {
+        top: 1em;
+        width: 90%;
+        background-size: contain;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 3px 3px 5px #888888;
+    }
+    .second-col .container .ctn {
+        width: 100% !important;
+        padding: 0;
+        margin: 0;
+    }
+    .display-info,
+    .second-col .title img {
+        width: 90%;
+        display: block !important;
+        position: relative;
+        margin-bottom: 1em;
+    }
+    .download-info,
+    .download-info-2,
+    .download-info-3 {
+        display: block;
+        padding: 1em 0 0 0 !important;
+        margin: 0;
+        line-height: 0;
+        letter-spacing: 0;
+        font-size: 60%;
+    }
+    .download-info,
+    .download-info-3 {
+        background: none;
+    }
+    .download-info-2-sp {
+        display: none;
+    }
+    .download-info p,
+    .download-info-2 p,
+    .download-info-3 p {
+        font-size: 14px !important;
+        padding: 0;
+        width: 90%;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .download-info p .emphasis,
+    .download-info-2 p .emphasis,
+    .download-info-3 p .emphasis {
+        font-size: 18px !important;
+        letter-spacing: 0;
+    }
+    .left_btn,
+    .right_btn {
+        display: none;
+    }
+}
+/*女性従業員の信頼を勝ち得る*/
+
+.three-col {
+    background: url("images/image3_bg.jpg") no-repeat;
+    display: block;
+    background-size: cover;
+    height: 1600px;
+}
+.three-col .container {
+    background: url("images/image3_bg_cnt_2.png") no-repeat;
+    display: block;
+    background-size: contain;
+    min-height: 1400px;
+    float: left;
+    margin: 3em;
+}
+/* ipad*/
+
+@media only screen and (max-width: 1024px) {
+    .three-col {
+        height: 1000px
+    }
+    .three-col .container {
+        height: 500px
+    }
+}
+/* mobile*/
+
+/*バナ-*/
+
+.four-col {
+    background: url("images/image4_bg.jpg") no-repeat;
+    display: block;
+    background-size: contain;
+    height: 1210px;
+    background-position: top center;
+}
+/*ipad-*/
+
+@media only screen and (max-width: 1024px) {
+    .four-col {
+        background: url("images/image4_banner_sp.png") no-repeat;
+        display: block;
+        background-size: cover;
+        height: 500px;
+        background-position: top center;
+    }
+}
+/*mobile-*/
+
+@media only screen and (max-width: 767px) {
+    .four-col-sp {
+        background: url("images/image4_banner_sp.png") no-repeat;
+        background-size: contain;
+        max-width: 420px;
+        height: 580px;
+        background-position: top center;
+    }
+}
+/*ベジえのこだわり*/
+
+.five-col .container {
+    background: url("images/image5_bg.png") no-repeat;
+    display: block;
+    background-size: contain;
+    height: 4000px;
+    margin: 0 auto;
+}
+.three-col-sp,
+.four-col-sp,
+.five-col-sp,
+.six-col-sp,
+.seven-col-sp {
+    display: none;
+}
+@media only screen and (max-width: 1024px) {
+    .five-col .container {
+        height: 2500px;
+    }
+    .six-col .container {
+        height: 900px !important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .three-col,
+    .four-col,
+    .five-col,
+    .six-col,
+    .seven-col {
+        display: none;
+    }
+    .three-col-sp,
+    .four-col-sp,
+    .five-col-sp,
+    .six-col-sp,
+    .seven-col-sp {
+        display: block;
+        width: 100%;
+        text-align: justify;
+        padding: 0 1em;
+    }
+    .three-col-sp {
+        background: url(images/image3_bg_sp.png) repeat;
+        background-size: cover;
+        padding-bottom: 40px;
+    }
+    .six-col-sp {
+        background-color: #f9f4f5;
+        padding-bottom: 40px;
+    }
+    .seven-col-sp {
+        background: url(images/image7_bg.png) repeat;
+        background-size: contain;
+        padding-bottom: 40px;
+        background-color: white;
+    }
+}
+/*ベジエ導入*/
+
+.six-col {
+    background-color: #f9f4f5;
+}
+.six-col .container {
+    background: url("images/image6_bg.png") no-repeat;
+    display: block;
+    background-size: contain;
+    height: 1200px;
+}
+/*従業員のための朝ごはん*/
+
+.seven-col {
+    background: url("images/image7_bg.png") repeat;
+    background-size: cover;
+    position: top center;
+}
+.seven-col .container {
+    background: url("images/image7_bg_cnt.png") no-repeat;
+    display: block;
+    background-size: contain;
+    height: 1700px;
+}
+/* 応募 */
+
+.cv_title {
+    background-color: #85313b;
+    color: white;
+    padding: 1em 3em 1em 3em;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+.cv_title p {
+    margin-bottom: 0 !important;
+}
+.rules h2 {
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px dotted #85313b;
+    color: #85313b;
+    margin-bottom: 3px;
+}
+.rules h2 i {
+    padding: 12px 20px;
+}
+.style3 .apply-list .default li i {
+    color: #e5b844;
+    padding: 12px 20px;
+}
+.style3 .apply-list ul.default li {
+    margin-top: 1em!important;
+}
+.chalkboard {
+    border: 3px solid #e5b844;
+    background-color: #173707 !important;
+    color: white;
+}
+.chalkboard .rules h2 {
+    color: white;
+    border-bottom: 2px dotted white;
+}
+.chalkboard .chalkboard_img {
+    float: right !important;
+}
+.chalkboard .disable {
+    color: white !important;
+}
+@media only screen and (max-width: 767px) {
+    .chalkboard .title h2 {
+        font-size: 31px !important;
+        font-weight: 500 !important;
+        padding: 0.5em !important;
+    }
+    .style3 .apply-list .default li i {
+        padding: 0;
+    }
+}

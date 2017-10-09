@@ -3,7 +3,7 @@
 $data = json_decode(file_get_contents('php://input'), true);
 if(isset($data)) {
 
-$adminMail = "abiwaseda@gmail.com";
+$adminMail = "info@kiyora-inc.jp";
 $to = $data['mailaddress'];
 $phonenumber = $data['phonenumber'];
 $companyname = $data['companyname'];

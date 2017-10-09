@@ -37,7 +37,7 @@
 			$body.addClass('is-scroll');
 
 		}
-
+/*
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
 
@@ -50,7 +50,7 @@
 				$(':last-child').addClass('last-child');
 
 		// Fix: Placeholder polyfill.
-			$('form').placeholder();
+			//$('form').placeholder();
 
 		// Prioritize "important" elements on mobile.
 			skel.on('+mobile -mobile', function() {
@@ -156,7 +156,7 @@
 				windowMargin: 10,
 				usePopupNav: true
 			});
-
+*/
 	});
 
 })(jQuery);

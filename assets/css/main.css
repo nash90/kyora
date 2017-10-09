@@ -1807,7 +1807,7 @@
 			top: -4.5em;
 			margin-left: -45px;
 			margin-top: -33px;
-			background: url("images/arrow.svg") no-repeat;
+/*			background: url("images/arrow.svg") no-repeat; */
 		}
 
 		.box :last-child {
@@ -2018,7 +2018,7 @@
 				bottom: -4.5em;
 				margin-left: -45px;
 				margin-bottom: -33px;
-				background: url("images/arrow.svg") no-repeat;
+/*				background: url("images/arrow.svg") no-repeat; */
 			}
 
 /* Banner */

@@ -20,7 +20,7 @@
 	};
 
 	skel.breakpoints({
-		wide: '(max-width: 1680px)',
+		wide: '(max-width: 1480px)',
 		normal: '(max-width: 1080px)',
 		narrow: '(max-width: 840px)',
 		mobile: '(max-width: 736px)'

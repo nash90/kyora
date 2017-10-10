@@ -6,7 +6,7 @@ app.controller("FormController", function($scope, $http) {
 	$scope.companyaddress = "";
 	$scope.name = "";
 	$scope.mailaddress = "";
-	$scope.phonenumber = null;
+	$scope.phonenumber = "";
 	$scope.snsaccount = "";
 	$scope.message = "";
 	$scope.submitted = false;
@@ -18,7 +18,7 @@ app.controller("FormController", function($scope, $http) {
 		$scope.companyaddress = "";
 		$scope.name = "";
 		$scope.mailaddress = "";
-		$scope.phonenumber = null;
+		$scope.phonenumber = "";
 		$scope.snsaccount = "";
 		$scope.message = "";
 		$scope.submitted = false;	
@@ -29,7 +29,7 @@ app.controller("FormController", function($scope, $http) {
 		$scope.data.companyaddress = $scope.companyaddress;
 		$scope.data.name = $scope.name;
 		$scope.data.mailaddress = $scope.mailaddress;
-		$scope.data.phonenumber = $scope.phonenumber.toString();
+		$scope.data.phonenumber = $scope.phonenumber;
 		$scope.data.snsaccount = $scope.snsaccount; 
 		$scope.data.message = $scope.message;
 	}

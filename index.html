@@ -247,7 +247,7 @@
                 <div class="borderline">
                     <label>電話番号</label>
                     <div class="12u 12u$(mobile)">
-                        <input type="number" class="text" name="phonenumber" placeholder="電話番号" ng-model="phonenumber" required />
+                        <input type="text" class="text" name="phonenumber" placeholder="電話番号" ng-model="phonenumber" pattern="[0-9]*" title="電話番号" required />
                         <span style="color:red" ng-show="submitted && myForm.phonenumber.$error.required">電話番号を入力してください。</span>
                     </div>
                 </div>                
@@ -576,7 +576,7 @@
                 <div class="borderline">
                     <label>電話番号</label>
                     <div class="12u 12u$(mobile)">
-                        <input type="number" class="text" name="phonenumber" placeholder="電話番号" ng-model="phonenumber" required />
+                        <input type="text" class="text" name="phonenumber" placeholder="電話番号" ng-model="phonenumber" pattern="[0-9]*" title="電話番号" required />
                         <span style="color:red" ng-show="submitted && myForm.phonenumber.$error.required">電話番号を入力してください。</span>
                     </div>
                 </div>                 
@@ -804,7 +804,7 @@
                 <div class="borderline">
                     <label>電話番号</label>
                     <div class="12u 12u$(mobile)">
-                        <input type="number" class="text" name="phonenumber" placeholder="電話番号" ng-model="phonenumber" required />
+                        <input type="text" class="text" name="phonenumber" placeholder="電話番号" ng-model="phonenumber" pattern="[0-9]*" title="電話番号" required />
                         <span style="color:red" ng-show="submitted && myForm.phonenumber.$error.required">電話番号を入力してください。</span>
                     </div>
                 </div>                 

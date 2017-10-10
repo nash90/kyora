@@ -73,9 +73,9 @@ body {
     .rules h2 i {
         padding: 12px 10px !important;
     }
-    .box :last-child {
+    /*.box :last-child {
         margin-bottom:0px;
-    }
+    }*/
 }
 /* ipad pro 1024*/
 

@@ -52,10 +52,10 @@ body {
     }
     h1 {
         color: #85313b;
-        padding: 1em 0;
+        padding: 2.5em 0;
         font-weight: 600;
         text-align: center;
-        font-size: 24px;
+        /*font-size: 24px;*/
         letter-spacing: 3px;
     }
     .sp-big {
@@ -69,6 +69,12 @@ body {
     }
     .pc-mg-100 {
         display: none;
+    }
+    .rules h2 i {
+        padding: 12px 10px !important;
+    }
+    .box :last-child {
+        margin-bottom:0px;
     }
 }
 /* ipad pro 1024*/
@@ -225,12 +231,12 @@ body {
         background: url("images/image2_bg_sp.jpg") repeat;
         background-size: cover;
         max-width: 100%;
-        height: 1000px;
+        height: 900px;
     }
     .second-col .container {
         width: 90%;
         margin: 1em 0 0 0 ;
-       /*  height: 980px;*/
+        height: 800px;
         background-size: contain;
         margin: 0 auto;
         background-color: white;
@@ -257,7 +263,7 @@ body {
         margin: 0;
         line-height: 0;
         letter-spacing: 0;
-        font-size: 60%;
+        font-size: 40%;
     }
     .download-info,
     .download-info-3 {
@@ -286,6 +292,7 @@ body {
         display: none;
     }
 }
+
 /*女性従業員の信頼を勝ち得る*/
 
 .three-col {
@@ -321,7 +328,7 @@ body {
     background: url("images/image4_bg.jpg") no-repeat;
     display: block;
     background-size: contain;
-    height: 980px;
+    height: 830px;
     background-position: top center;
 }
 /*ipad-*/
@@ -440,7 +447,7 @@ body {
 .cv_title {
     background-color: #85313b;
     color: white;
-    padding: 1em 3em 1em 3em;
+    padding: 1em 1.5em 1em 1.5em;
     text-align: center;
     margin: 0 auto;
     width: 80%;

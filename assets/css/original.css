@@ -31,7 +31,7 @@
     height: 100px;
 }
 body {
-    max-width: 1480px;
+    max-width: 1200px;
     margin: 0 auto;
     -webkit-box-shadow: 2px 4px 27px 3px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 2px 4px 27px 3px rgba(0, 0, 0, 0.75);
@@ -52,10 +52,10 @@ body {
     }
     h1 {
         color: #85313b;
-        padding: 1em 0;
+        padding: 2.5em 0;
         font-weight: 600;
         text-align: center;
-        font-size: 24px;
+        /*font-size: 24px;*/
         letter-spacing: 3px;
     }
     .sp-big {
@@ -70,6 +70,12 @@ body {
     .pc-mg-100 {
         display: none;
     }
+    .rules h2 i {
+        padding: 12px 10px !important;
+    }
+    /*.box :last-child {
+        margin-bottom:0px;
+    }*/
 }
 /* ipad pro 1024*/
 
@@ -89,8 +95,8 @@ body {
 #hero {
     background: url("images/image1.jpg") no-repeat;
     background-position: top center;
-    background-size: cover;
-    min-height: 1250px;
+    background-size: contain;
+    min-height: 900px;
 }
 .sp-title img {
     display: none;
@@ -124,23 +130,23 @@ body {
     background: url("images/image2_bg.jpg") no-repeat;
     display: block;
     background-size: cover;
-    height:1700px;
+    height:1800px;
 }
 .second-col .container {
     background-color: white;
     border-radius: 5px;
     top: 10em;
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
 }
 .download-info {
     width: 100%;
-    padding: 3em 2em 1em 5em;
+    padding: 3em 2em 1em 3em;
     background: url("images/image3.png") bottom right no-repeat;
 }
 .download-info-3 {
     width: 100%;
-    padding: 6em 2em 1em 5em;
+    padding: 3em 2em 1em 5em;
     background: url("images/image3_3.png") bottom right no-repeat;
 }
 .download-info-2 p .right {
@@ -150,7 +156,7 @@ body {
 }
 .download-info-2 img {
     float: left;
-    padding: 0em 8em 2em 2em;
+    padding: 0em 3em 2em 2em;
 }
 .download-info p .emphasis,
 .download-info-2 p .emphasis,
@@ -198,8 +204,14 @@ body {
 
 @media only screen and (max-width: 1024px) {
     .second-col {
-        height: 1300px
+        height: 1500px;
+        background-size: cover;
     }
+    .second-col .container{
+        height:1400px;
+
+    }
+
     .download-info,
     .download-info-2,
     .download-info-3 {
@@ -219,12 +231,12 @@ body {
         background: url("images/image2_bg_sp.jpg") repeat;
         background-size: cover;
         max-width: 100%;
-        height: 1000px;
+        height: 900px;
     }
     .second-col .container {
         width: 90%;
         margin: 1em 0 0 0 ;
-       /*  height: 980px;*/
+        height: 800px;
         background-size: contain;
         margin: 0 auto;
         background-color: white;
@@ -251,7 +263,7 @@ body {
         margin: 0;
         line-height: 0;
         letter-spacing: 0;
-        font-size: 60%;
+        font-size: 40%;
     }
     .download-info,
     .download-info-3 {
@@ -280,13 +292,14 @@ body {
         display: none;
     }
 }
+
 /*女性従業員の信頼を勝ち得る*/
 
 .three-col {
     background: url("images/image3_bg.jpg") no-repeat;
     display: block;
     background-size: cover;
-    height: 1600px;
+    height: 1300px;
 }
 .three-col .container {
     background: url("images/image3_bg_cnt_2.png") no-repeat;
@@ -315,7 +328,7 @@ body {
     background: url("images/image4_bg.jpg") no-repeat;
     display: block;
     background-size: contain;
-    height: 1210px;
+    height: 830px;
     background-position: top center;
 }
 /*ipad-*/
@@ -346,7 +359,7 @@ body {
     background: url("images/image5_bg.png") no-repeat;
     display: block;
     background-size: contain;
-    height: 4000px;
+    height: 3300px;
     margin: 0 auto;
 }
 .three-col-sp,
@@ -434,7 +447,7 @@ body {
 .cv_title {
     background-color: #85313b;
     color: white;
-    padding: 1em 3em 1em 3em;
+    padding: 1em 1.5em 1em 1.5em;
     text-align: center;
     margin: 0 auto;
     width: 80%;

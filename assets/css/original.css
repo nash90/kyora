@@ -217,12 +217,12 @@ body {
     .download-info-3 {
         background: none;
         padding: 0 3em;
-        justify-content: center;
-        text-align: center;
+        text-align: left;
     }
     .download-info-2 img {
         display: none !important;
     }
+    
 }
 /* mobile*/
 
@@ -231,12 +231,12 @@ body {
         background: url("images/image2_bg_sp.jpg") repeat;
         background-size: cover;
         max-width: 100%;
-        height: 900px;
+        height: 750px;
     }
     .second-col .container {
         width: 90%;
         margin: 1em 0 0 0 ;
-        height: 800px;
+        height: 680px;
         background-size: contain;
         margin: 0 auto;
         background-color: white;
@@ -279,7 +279,7 @@ body {
         padding: 0;
         width: 90%;
         margin: 0 auto;
-        text-align: center;
+        text-align: left;
     }
     .download-info p .emphasis,
     .download-info-2 p .emphasis,
